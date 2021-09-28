@@ -44,7 +44,6 @@ main{padding-top:200px;}
 @media screen and (max-width:1024px){
 	main{padding-top:90px;}
 	#kids{margin-bottom:20px;}
-	.dash{display:none;}
 	#stady{width:90%;}
 	.stady-title{padding:10px 0px 20px;}
 	.challenge{display:flex;justify-content:space-between;}
