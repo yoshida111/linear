@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* リニアトップ */
-#top{display:block;width:90%;height:100vh;margin:0 auto;padding-top:150px;position:relative;}
+#top{display:inherit;width:90%;height:100vh;margin:0 auto;padding-top:150px;position:relative;}
 #top h1{color:#fff;width:fit-content;height:fit-content;margin:0;padding:0;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-writing-mode:tb-rl;writing-mode:vertical-rl;}
 #top img{width:100%;height:100%;}
 
@@ -61,7 +61,7 @@
 	#top{display:none;}
 
 	/* レスポンシブトップ写真 */
-	#responsive-top{display:contents;width:100vw;height:100vh;position:relative;}
+	#responsive-top{display:inherit;width:100vw;height:100vh;position:relative;}
 	#responsive-top h1{position:absolute;top:40%;left:50%;transform:translate(-50%,-50%);-ms-writing-mode:tb-rl;writing-mode:vertical-rl;margin:0;padding:0;font-size:22px;letter-spacing:0.3em;line-height:0.2em;color:#FFFFFF;font-family:YuMincho,"Yu Mincho","Hiragino Mincho ProN","serif";}
 	#responsive-top img{width:100%;height:100vh;margin:0 auto;}
 
