@@ -29,7 +29,7 @@ header{width:100vw;height:150px;position:fixed;background-color:#FFFFFF;z-index:
 
 /* フッター */
 footer{width:100%;height:50px;display:flex;justify-content:center;align-items:center;background-color:#f7f7f7;text-align:center;}
-footer p{font-size:7px;letter-spacing:0em;padding-left:0em;line-height:1em;}
+footer p{font-size:10px;letter-spacing:0em;padding-left:0em;}
 
 /* タブレットサイズ */
 @media screen and (max-width:1024px) {
