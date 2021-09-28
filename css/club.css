@@ -34,8 +34,6 @@ form{padding:0 50px;display:grid;text-align:left;}
 @media screen and (max-width:1024px) {
 	main{padding-top:90px;}
 	#club{margin-bottom:20px;}
-	/* タイトルダッシュ無くす */
-	.dash{display:none;}
 	#recruit{width:90%;margin:50px auto 30px;text-align:center;}
 	#inquiry{width:90%;margin:0px auto 50px;}
 	#recruit h3{font-size:14px;}
