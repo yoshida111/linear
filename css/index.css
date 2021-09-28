@@ -62,7 +62,7 @@
 	header{background-color:rgba(255,255,255,0.6);}
 
 	/* リニアトップ非表示 */
-	#linear-top{display:none;}
+	#top{display:none;}
 
 	/* レスポンシブトップ写真 */
 	#responsive-top{display:contents;width:100vw;height:100vh;position:relative;}
