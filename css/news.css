@@ -40,7 +40,6 @@ li.n-li:hover{opacity:0.4;}
 @media screen and (max-width:1024px){
 	main{padding-top:90px;}
 	#information{margin-bottom:20px;}
-	.dash{display:none;}
 	#news{width:90%;}
 	.fc{font-size:12px;}
 }
