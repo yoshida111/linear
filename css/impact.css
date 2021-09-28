@@ -6,8 +6,8 @@ main{padding-top:200px;}
 #change{width:100%;height:60vh;margin-bottom:60px;position:relative;}
 .background{width:80%;height:100%;background-color:#4673A6;}
 .background h1{color:#fff;width:fit-content;height:fit-content;margin:0;padding:0;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-ms-writing-mode:tb-rl;writing-mode:vertical-rl;}
-.dash1{letter-spacing:-0.2em;}
-.dash2{letter-spacing:-0.2em;margin-right:1em;}
+.dash1{letter-spacing:-.2em;}
+.dash2{letter-spacing:-.2em;margin-right:1em;}
 
 /* 変わる */
 #how-cha{width:60%;margin:0 auto;margin-bottom:80px;}
@@ -18,7 +18,7 @@ main{padding-top:200px;}
 .flex{display:flex;}
 .grid{display:grid;align-items:center;padding-bottom:10px;}
 .ac-index{display:inline-block;font-size:16px;color:#4673A6;font-weight:bold;padding:20px 0 10px;}
-.osaka{margin-right:10px;}
+.osaka{margin-right:20px;padding:0;}
 .small{font-size:16px;display:block;width:fit-content;}
 
 /* 観光情報 */
@@ -67,7 +67,7 @@ main{padding-top:200px;}
   .info-title{width:100%;margin-top:60px;margin-bottom:40px;}
   .information{align-items:baseline;margin-bottom:60px;}
   .flex{display:grid;}
-  .osaka{padding-right:inherit;margin-bottom:10px;}
+  .osaka{margin-right:0px;margin-bottom:30px;}
 
   /* 流れる非表示 */
   .photo-ul{display:none;}
@@ -94,9 +94,8 @@ main{padding-top:200px;}
 @media screen and (max-width:559px) {
   #change{margin-bottom:0px;}
   .list{padding:40px 10px;}
-  .info-title h2 {font-size:18px;line-height:24px;}
+  .info-title h2 {font-size: 18px;line-height: 24px;}
 	.flex{display:grid;}
-	.osaka{padding-right:inherit;padding-bottom:30px;}
 	#information h3{line-height:50px;padding:60px 0;}
 	.res-list{padding:0;}
 }
