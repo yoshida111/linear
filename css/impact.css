@@ -6,8 +6,8 @@ main{padding-top:200px;}
 #change{width:100%;height:60vh;margin-bottom:60px;position:relative;}
 .background{width:80%;height:100%;background-color:#4673A6;}
 .background h1{color:#fff;width:fit-content;height:fit-content;margin:0;padding:0;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-ms-writing-mode:tb-rl;writing-mode:vertical-rl;}
-.dash1{letter-spacing:-.2em;}
-.dash2{letter-spacing:-.2em;margin-right:1em;}
+.dash1{letter-spacing:-0.2em;}
+.dash2{letter-spacing:-0.2em;margin-right:1em;}
 
 /* 変わる */
 #how-cha{width:60%;margin:0 auto;margin-bottom:80px;}
@@ -94,9 +94,9 @@ main{padding-top:200px;}
 @media screen and (max-width:559px) {
   #change{margin-bottom:0px;}
   .list{padding:40px 10px;}
-  .info-title h2 {font-size: 18px;line-height: 24px;}
+  .info-title h2 {font-size:18px;line-height:24px;}
 	.flex{display:grid;}
-	.osaka{padding-right:inherit;margin-bottom:10px;}
+	.osaka{padding-right:inherit;margin-bottom:30px;}
 	#information h3{line-height:50px;padding:60px 0;}
 	.res-list{padding:0;}
 }
